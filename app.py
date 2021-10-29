@@ -49,7 +49,7 @@ def favicon():
 
 @app.route('/')
 def home():
-    return jsonify(msg="endpoint should be in example format: https://172.20.0.2/5000/specialmath/7")
+    return jsonify(msg="endpoint should be in example format: http://127.0.0.1/5000/specialmath/7")
 
 
 if __name__ == '__main__':
